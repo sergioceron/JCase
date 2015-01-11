@@ -1,0 +1,252 @@
+[
+    {
+        "atributos": [
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "nombre",
+                "tipo": "String"
+            },
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "sexo",
+                "tipo": "boolean"
+            },
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "edad",
+                "tipo": "int"
+            }
+        ],
+        "dimension": {
+            "width": 202,
+            "height": 202
+        },
+        "elementType": "CLASE",
+        "metodos": [
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "getNombre",
+                "parameters": "",
+                "tipo": "String"
+            },
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "getSexo",
+                "parameters": "",
+                "tipo": "boolean"
+            },
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "getEdad",
+                "parameters": "",
+                "tipo": "int"
+            },
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "hablar",
+                "parameters": "String palabras",
+                "tipo": "void"
+            }
+        ],
+        "nombre": "Persona",
+        "posicion": {
+            "x": 417,
+            "y": 62
+        },
+        "relaciones": [
+            {
+                "toClass": "Sergio",
+                "type": "COMPOSITION"
+            },
+            {
+                "toClass": "SerVivo",
+                "type": "INHERITANCE"
+            }
+        ]
+    },
+{
+        "atributos": [
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "escuela",
+                "tipo": "String"
+            }
+        ],
+        "dimension": {
+            "width": 202,
+            "height": 202
+        },
+        "elementType": "CLASE",
+        "metodos": [
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "programar",
+                "parameters": "String lenguaje",
+                "tipo": "void"
+            }
+        ],
+        "nombre": "Sergio",
+        "posicion": {
+            "x": 751,
+            "y": 62
+        },
+        "relaciones": [
+        ]
+    },
+{
+        "atributos": [
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "manos",
+                "tipo": "int"
+            },
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "pies",
+                "tipo": "int"
+            }
+        ],
+        "dimension": {
+            "width": 200,
+            "height": 200
+        },
+        "elementType": "CLASE",
+        "metodos": [
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "caminar",
+                "parameters": "",
+                "tipo": "void"
+            },
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "ver",
+                "parameters": "",
+                "tipo": "void"
+            }
+        ],
+        "nombre": "SerVivo",
+        "posicion": {
+            "x": 64,
+            "y": 55
+        },
+        "relaciones": [
+        ]
+    },
+{
+        "atributos": [
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "tipo",
+                "tipo": "int"
+            }
+        ],
+        "dimension": {
+            "width": 200,
+            "height": 200
+        },
+        "elementType": "CLASE",
+        "metodos": [
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "vuela",
+                "parameters": "",
+                "tipo": "void"
+            },
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "volar",
+                "parameters": "",
+                "tipo": "void"
+            }
+        ],
+        "nombre": "Animal",
+        "posicion": {
+            "x": 418,
+            "y": 333
+        },
+        "relaciones": [
+            {
+                "toClass": "SerVivo",
+                "type": "INHERITANCE"
+            }
+        ]
+    },
+{
+        "atributos": [
+            {
+                "acceso": "DEFAULT",
+                "array": false,
+                "class": "com.dotrow.poo.core.Atributo",
+                "modificador": "NONE",
+                "nombre": "nombre",
+                "tipo": "String"
+            }
+        ],
+        "dimension": {
+            "width": 200,
+            "height": 200
+        },
+        "elementType": "CLASE",
+        "metodos": [
+            {
+                "acceso": "DEFAULT",
+                "class": "com.dotrow.poo.core.Metodo",
+                "modificador": "NONE",
+                "nombre": "morder",
+                "parameters": "",
+                "tipo": "void"
+            }
+        ],
+        "nombre": "Perro",
+        "posicion": {
+            "x": 749,
+            "y": 328
+        },
+        "relaciones": [
+            {
+                "toClass": "Animal",
+                "type": "INHERITANCE"
+            }
+        ]
+    }
+]
